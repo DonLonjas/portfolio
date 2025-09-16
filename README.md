@@ -7,7 +7,7 @@ Aquí muestro proyectos, prácticas y ejemplos que reflejan mi aprendizaje y exp
 
 ## 🚀 Tecnologías utilizadas
 
-- **Frontend:** HTML, CSS, JavaScript, TypeScript, Bootstrap  
+- **Frontend:** HTML, CSS, JavaScript
 - **Frameworks:** (en aprendizaje)  
 - **Backend:** (en aprendizaje)  
 - **Otros:** GitHub
