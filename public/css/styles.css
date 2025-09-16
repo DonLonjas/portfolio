@@ -4,8 +4,10 @@
             min-height: 100vh;
             background: linear-gradient(120deg, #0f0f23 0%, #1a1a2e 50%, #2d1b69 100%);
             color: #ffffff;
-            margin: 0;
-            overflow: hidden;
+            margin: 0 auto;
+            scrollbar-color: #2d1b69 #0f0f23;
+            scrollbar-shadow-color: #7c3aed;
+
         }
         .container { 
             max-width: 900px; 
@@ -101,22 +103,13 @@
             color: #cccccc;
         }
         .contacto a {
-            color: #9d4edd;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-        .contacto a:hover {
-            color: #c77dff;
-        }
-        .redes a { 
             margin-right: 18px; 
             color: #9d4edd; 
             text-decoration: none; 
             font-weight: bold; 
             transition: color 0.3s ease;
         }
-        .redes a:hover {
+        .contacto a:hover {
             color: #c77dff;
         }
         @media (max-width: 600px) { 
