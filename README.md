@@ -1,3 +1,21 @@
-# portfolio
-Repositorio del portafolio personal. 
-Contiene los proyectos, prácticas y ejemplos desarrollados para demostrar habilidades en diseño web, desarrollo frontend y backend. Incluye tecnologías como HTML, CSS, JavaScript, TypeScript, Bootstrap, frameworks y otras herramientas utilizadas en el proceso de aprendizaje y construcción de aplicaciones.
+# 🌐 Portafolio Personal
+
+Bienvenido a mi portafolio.  
+Aquí muestro proyectos, prácticas y ejemplos que reflejan mi aprendizaje y experiencia en **desarrollo web** y **programación**.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- **Frontend:** HTML, CSS, JavaScript, TypeScript, Bootstrap  
+- **Frameworks:** (en aprendizaje)  
+- **Backend:** (en aprendizaje)  
+- **Otros:** GitHub
+
+---
+
+## 🎨 Objetivo del portafolio
+
+- Mostrar mis habilidades técnicas  
+- Compartir mi evolución como desarrollador  
+- Tener un espacio central para proyectos personales y colaborativos  
