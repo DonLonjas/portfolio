@@ -9,41 +9,78 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="container">
 
-    <h1 id="name">MrLonjas</h1>
-    <p>Soy un desarrollador junior apasionado por aprender y crear. <br>Estoy dando mis primeros pasos en el mundo del desarrollo, explorando tecnologías modernas y construyendo mi camino en la programación.</p>
-    <h2>Proyectos</h2>
-        <div class="proyectos">
 
-            <div class="proyecto">
-                <h3><a href="https://braihangrado.site" target="_blank">Web Asistencias</a></h3>
-                <p>Diseñada para presentar un evento de grado y facilitar la gestión de las confirmaciones de asistencia.</p>
-                <p style="font-style: italic; color: #888;">¡El backend y sistema de audio en html están desarrollados con IA!</p>
-            </div>
-            <div class="proyecto">
-                <h3><a href="https://dashboard.lonjas.site" target="_blank">Dashboard Bot Actividades</a></h3>
-                <p>Diseñada para gestionar actividades y eventos, permitiendo a los usuarios registrarse y recibir información relevante.</p>
-                <p style="font-style: italic; color: #888;">¡El backend y bot están desarrollados con IA!</p>
-            </div>
-        </div>
-    <h2>Habilidades</h2>
-        <div class="skills">
-            <span class="skill">JavaScript</span>
-            <span class="skill">HTML5</span>
-            <span class="skill">CSS3</span>
-        </div>
-    <h2>Contacto</h2>
-        <div class="contacto">
-            <div class="redes">
-                <a href="https://github.com/DonLonjas" target="_blank">GitHub</a>
-                <a href="https://discord.gg/eUA4p6wHTA" target="_blank">Discord</a>
-                <a href="#" id="copy-email">Copiar correo</a>
-            </div>
-        </div>
+
+    <div class="about-me">
+        <img src="../logo-no-background.svg" alt="my-photo">
+        <a href="https://github.com/DonLonjas"><h1 id="name">MrLonjas</h1></a>
+        <p>Soy un desarrollador junior apasionado por aprender y crear. <br>Estoy dando mis primeros pasos en el mundo del desarrollo, explorando tecnologías modernas y construyendo mi camino en la programación.</p>
     </div>
+    <div class="content-separator">
+        <div class="container">
+        <h2>Proyectos</h2>
+            <div class="proyectos">
 
-    <div id="copy-alert" style="display:none;position:fixed;bottom:32px;left:50%;transform:translateX(-50%);background:#9d4edd;color:#fff;padding:12px 28px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.2);font-weight:bold;z-index:9999;">¡Correo copiado!</div>
-        <script src="./scripts.js"></script>
+                <div class="proyecto">
+                    <h3><a href="https://braihangrado.site" target="_blank">Web Asistencias</a></h3>
+                    <p>Diseñada para presentar un evento de grado y facilitar la gestión de las confirmaciones de asistencia.</p>
+                    <img src="./images/proyects/grado.webp" alt="Web Asistencias">    
+                    <p style="font-style: italic; color: #888;">¡El backend y sistema de audio en html están desarrollados con IA!</p>
+                </div>
+                <div class="proyecto">
+                    <h3><a href="https://dashboard.lonjas.site" target="_blank">Dashboard Bot Actividades</a></h3>
+                    <p>Diseñada para gestionar actividades y eventos, permitiendo a los usuarios registrarse y recibir información relevante.</p>
+                    <img src="./images/proyects/dashboard.webp" alt="Dashboard Bot Actividades">
+                    <p style="font-style: italic; color: #888;">¡El backend y bot están desarrollados con IA!</p>
+                </div>
+            </div>
+        <h2>Contacto</h2>
+            <div class="contacto">
+                <div class="redes">
+                    <a href="https://github.com/DonLonjas" target="_blank">GitHub</a>
+                    <a href="https://discord.gg/eUA4p6wHTA" target="_blank">Discord</a>
+                    <a href="#" id="copy-email">Copiar correo</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container-techs">
+            <h2>Tech Stacks</h2>
+            <div class="tech-levels">
+                <p class="skill-level"><button class="skill-btn skill-advanced"></button> → Avanzado</p>
+                <p class="skill-level"><button class="skill-btn skill-intermediate"></button> → Intermedio</p>
+                <p class="skill-level"><button class="skill-btn skill-beginner"></button> → Principiante</p>
+                <p class="skill-level"><button class="skill-btn skill-learning"></button> → Aprendiendo</p>
+            </div>
+            <h3>Base Stack</h3>
+            <div class="skills">
+
+                <span class="skill skill-intermediate"><img src="./images/logos/html-logo.webp" alt="HTML5"></span>
+                <span class="skill skill-intermediate"><img src="./images/logos/css-logo.webp" alt="CSS3"></span>
+                <span class="skill skill-intermediate"><img src="./images/logos/javascript-logo.svg" alt="JavaScript"></span>
+                <span class="skill skill-beginner" style="height: 48px;width: 48px;"><img src="./images/logos/typescript-logo.webp" style="width: 44px;height: 44px;margin-top: 2px;margin-left: 2px;" alt="TypeScript"></span>
+            </div>
+            <h3>Frameworks</h3>
+            <div class="skills">
+                <span class="skill skill-learning" style="height: 48px;"><img src="./images/logos/react-logo.webp" style="height: 44px;margin-top: 2px;" alt="React"></span>
+            </div>
+            <h3>Backend</h3>
+            <div class="skills">
+                <span class="skill skill-learning"><img src="./images/logos/mongodb-logo.webp" alt="MongoDB"></span>
+                <span class="skill skill-learning" style="padding-right: 15px;padding-left: 20px;"><img src="./images/logos/nodejs-logo.webp" alt="Node.js"></span>
+            </div>
+            <h3>DevOps</h3>
+            <div class="skills">
+                <span class="skill skill-beginner"><img src="./images/logos/github-logo.webp" alt="GitHub"></span>
+                <span class="skill skill-beginner"><img src="./images/logos/git-logo.webp" alt="Git"></span>
+                <span class="skill skill-beginner"><img src="./images/logos/nginx-logo.webp" style="border-radius: 8px;" alt="Nginx"></span>
+            </div>
+        </div>
+        <div id="copy-alert" style="display:none;position:fixed;bottom:32px;left:50%;transform:translateX(-50%);background:#3b82f6;color:#fff;padding:12px 28px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.2);font-weight:bold;z-index:9999;">¡Correo copiado!</div>
+
+    
+            <script src="./scripts.js"></script>
 </body>
 </html>
